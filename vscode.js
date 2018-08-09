@@ -1,4 +1,6 @@
 {
+  // Controls the font family.
+  "editor.fontFamily": " 'Bitstream Vera Sans Mono', Consolas, 'Courier New', monospace",
   "editor.matchBrackets": false,
   "workbench.iconTheme": "eq-material-theme-icons-darker",
   // Controls how lines should wrap. Can be:
@@ -14,7 +16,7 @@
   "editor.parameterHints": false,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "editor.formatOnPaste": false,
-  "window.zoomLevel": -0.5,
+  "window.zoomLevel": 1,
   "workbench.colorTheme": "Material Theme Darker High Contrast",
   "materialTheme.fixIconsRunning": true,
   "explorer.confirmDelete": false,
@@ -25,7 +27,7 @@
   "editor.letterSpacing": 0.5,
   "workbench.startupEditor": "newUntitledFile",
   // Zoom the font of the editor when using mouse wheel and holding Ctrl
-  "editor.mouseWheelZoom": true "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
@@ -43,11 +45,7 @@
   "workbench.sideBar.location": "left",
   "gitlens.blame.line.enabled": false,
   "editor.renderWhitespace": "none",
-  "editor.rulers": [
-    80,
-    100,
-    120
-  ],
+  "editor.rulers": [80, 100, 120],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
@@ -59,7 +57,7 @@
     "**/.DS_Store": true,
     "**/.next": true
   },
-  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.tabCloseButton": "on",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -76,4 +74,8 @@
   },
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
+  // "prettier.disableLanguages": [
+  //     "js"
+  // ],
+  "files.autoSave": "onFocusChange"
 }

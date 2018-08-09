@@ -1,0 +1,27 @@
+{
+  "name": "config-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "eslint-plugin-prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "prettier": "^1.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbell0385/config-files.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbell0385/config-files/issues"
+  },
+  "homepage": "https://github.com/jbell0385/config-files#readme"
+}
