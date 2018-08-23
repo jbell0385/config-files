@@ -16,7 +16,7 @@
   "editor.parameterHints": false,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "editor.formatOnPaste": false,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "workbench.colorTheme": "Material Theme Darker High Contrast",
   "materialTheme.fixIconsRunning": true,
   "explorer.confirmDelete": false,
@@ -45,7 +45,11 @@
   "workbench.sideBar.location": "left",
   "gitlens.blame.line.enabled": false,
   "editor.renderWhitespace": "none",
-  "editor.rulers": [80, 100, 120],
+  "editor.rulers": [
+    80,
+    100,
+    120
+  ],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
@@ -69,13 +73,14 @@
   // These are all my auto-save configs
   "editor.formatOnSave": true,
   // turn it off for JS
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
+  // "[javascript]": {
+  //   "editor.formatOnSave": false
+  // },
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   // "prettier.disableLanguages": [
   //     "js"
   // ],
-  "files.autoSave": "onFocusChange"
+  "files.autoSave": "onFocusChange",
+  "liveServer.settings.donotShowInfoMsg": true
 }
